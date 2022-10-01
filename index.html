@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pitágoras</title>
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+
+<body>
+
+    <h1> Calculadora Teorema de Pitágoras </h1>
+
+    <div class="container-texto">
+        <h2>O que é a Calculadora de Pitágoras?</h2>
+        <p>
+            A calculadora do Teorema de Pitágoras é usada para calcular o comprimento
+            do terceiro lado de um triângulo retângulo com base nos outros dois lados,
+            usando o teorema de Pitágoras.
+        </p>
+
+        <h2>O que é o Teorema de Pitágoras?</h2>
+        <p>
+            O Teorema de Pitágoras declara: Em qualquer triângulo retângulo, a área do
+            quadrado cujo lado é a hipotenusa (o lado oposto ao ângulo reto) é igual à
+            soma das áreas dos quadrados cujos lados são os dois catetos (os dois lados
+            que encontrar em ângulo reto).
+        </p>
+
+        <p>
+            O Teorema de Pitágoras pode ser escrito como uma equação que relaciona os
+            comprimentos dos lados a, b e c,
+            frequentemente chamada de equação de Pitágoras:
+        </p>
+        
+            <figure>
+                <img src="img/photo-pythagorean-theorem.jpg" alt="Teorema">
+            </figure>
+    </div>
+
+    <div class="container-calculo">
+        <figure>
+            <img src="img/triangulo-ret.jpg" alt="Triangulo-Retangulo">
+        </figure>
+
+        <label for="ladoA">Lado A:
+            <input type="number" id="aInput" class="aInput">
+        </label>
+
+        <label for="ladoB">Lado B:
+            <input type="number" id="bInput" class="bInput">
+        </label>
+
+        <div id="resultado"></div>
+
+        <button type="button" id="button">Resultado</button>
+
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
